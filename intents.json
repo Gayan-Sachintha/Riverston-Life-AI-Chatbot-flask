@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "atv_ride_info",
+      "patterns": [
+        "Can I get information on ATV rides?",
+        "What does the ATV ride package include?",
+        "I'd like to know more about the ATV ride.",
+        "What are the options for ATV rides?"
+      ],
+      "responses": [
+        "Certainly! Our ATV Ride packages are as follows: 1) Full Package: Dinner, breakfast, morning tea, camping night, a 2km ATV bike ride, and BBQ grill for LKR4500 per person. 2) Standard Package: Dinner, breakfast, morning tea, camping night, and BBQ grill for LKR3000 per person. 3) Camping Only: Just the camping experience for LKR1000 per person. 4) ATV Ride Only: Choose from a 1.5km basic track for LKR2000, a 2km track for LKR2500, a 2km track with a muddy trail for LKR3000, or a full 2km muddy track experience for LKR4000. For bookings, contact us at 0716012892."
+      ]
+    },
+    {
+      "tag": "eco_resort_info",
+      "patterns": [
+        "Tell me about the eco resort packages.",
+        "What can I expect from the eco resort stay?",
+        "I'm interested in the eco resort stays.",
+        "Details on eco resort accommodation."
+      ],
+      "responses": [
+        "Our Nature Life Eco Resort offers a serene experience with these packages: 1) Deluxe Package: Dinner, breakfast, morning tea, cabana night, a 2km ATV bike ride, and BBQ grill for LKR5500 per person. 2) Comfort Package: Dinner, breakfast, morning tea, cabana night, and BBQ grill for LKR3800 per person. 3) Cabana Only: A peaceful stay in our cabana for LKR1500 per person. To reserve your stay, reach out to us at 0716012892."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact you?",
+        "I need the contact details.",
+        "Where can I get more information?",
+        "Give me the contact numbers."
+      ],
+      "responses": [
+        "You can contact us for more information or to make a reservation at the following numbers: 0716012892, 0701492017, or 0712590829. We're happy to assist you!"
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "I want to book a package.",
+        "How do I make a reservation?",
+        "Can I book an ATV ride now?",
+        "I would like to reserve a cabana."
+      ],
+      "responses": [
+        "To book a package with us, please call us at 0716012892 or 0701492017. You can also send us a message on WhatsApp at 0712590829. We're looking forward to your visit!"
+      ]
+    },
+    {
+      "tag": "group_accommodation",
+      "patterns": [
+        "Can you accommodate a large group?",
+        "We are a group of fifteen, can you accommodate us?",
+        "What's the maximum number of people you can accommodate?"
+      ],
+      "responses": [
+        "We can accommodate groups of up to fifteen people. For further details or to discuss arrangements for larger groups, please get in touch with us at 0716012892. We'd love to host your group!"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Greetings",
+        "What's up"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! Looking for some adventure or relaxation?",
+        "Greetings! Are you interested in our ATV rides or eco resort stays?",
+        "Good day! How may I help you with your travel plans?",
+        "Hey there! Ready to explore the Dust & Dirt packages or the serene Nature Life Eco Resort?"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Cheers",
+        "Thanks for the help",
+        "Thanks for the information"
+      ],
+      "responses": [
+        "You're welcome! If you have any more questions, feel free to ask.",
+        "No problem at all! I'm here to help if you need anything else.",
+        "My pleasure! Don't hesitate to reach out if you need further assistance.",
+        "Glad I could assist you! Let me know if there's anything else I can do for you."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact you?",
+        "What's your phone number?",
+        "I need the contact details.",
+        "Where can I get more information?",
+        "Give me the contact numbers.",
+        "How do I reach you for a booking?"
+      ],
+      "responses": [
+        "You can contact us for more information or to make a reservation at the following numbers: 0716012892, 0701492017, or 0712590829. We're happy to assist you!",
+        "For inquiries and bookings, please call us at 0716012892 or 0701492017. You can also send us a message on WhatsApp at 0712590829. We look forward to hearing from you!"
+      ]
+    },
+    {
+      "tag": "asking_details",
+      "patterns": [
+        "Can you tell me more about the packages?",
+        "I need more details on what's included.",
+        "What does the package consist of?",
+        "Give me the details of the ATV ride."
+      ],
+      "responses": [
+        "Of course! Our ATV Ride packages include options with dinner, breakfast, and camping. For the Eco Resort, we offer cabana stays with meals included. Would you like to know more about specific packages?",
+        "Sure! We have various options depending on the adventure level and comfort you're seeking. From ATV rides to peaceful cabana stays, all our packages come with meal options and additional amenities. Which one are you interested in?"
+      ]
+    }
+  ]
+}
