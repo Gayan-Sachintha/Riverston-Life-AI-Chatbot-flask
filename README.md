@@ -18,7 +18,7 @@ A dynamic and responsive AI Chatbot built with Python, Flask, and neural network
 1. **Clone the Repository**
 
     ```bash
-    git clone gh repo clone Gayan-Sachintha/Riverston-Life-AI-Chatbot-flask-
+    git [clone gh repo clone Gayan-Sachintha/Riverston-Life-AI-Chatbot-flask-](https://github.com/Gayan-Sachintha/Riverston-Life-AI-Chatbot-flask-.git)
     cd yourprojectname
     ```
 
