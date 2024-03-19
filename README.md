@@ -1,7 +1,7 @@
 
 # Python Flask AI Chatbot
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![AI Chatbot](https://img.shields.io/badge/AI%20Chatbot-776AB7?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![AI Chatbot](https://img.shields.io/badge/AI%20Chatbot-776AB7?style=for-the-badge) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 A dynamic and responsive AI Chatbot built with Python, Flask, and neural networks. Designed to handle inquiries about services, bookings, and customer support with ease and accuracy.
 
@@ -11,32 +11,33 @@ A dynamic and responsive AI Chatbot built with Python, Flask, and neural network
 - **Custom Neural Network**: Powered by a bespoke model for natural language understanding.
 - **Easy Integration**: Seamless incorporation into websites or applications.
 - **Scalable & Flexible**: Designed to grow with your business needs.
+- **API Testing with Postman**: Easily test and interact with the chatbot API.
 
 ## Installation
 
 1. **Clone the Repository**
 
-```bash
-git clone https://github.com/yourgithub/yourprojectname.git
-cd yourprojectname
-```
+    ```bash
+    git clone https://github.com/yourgithub/yourprojectname.git
+    cd yourprojectname
+    ```
 
 2. **Create a Virtual Environment (Optional)**
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
 
 3. **Install Requirements**
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Set Up Environment Variables**
 
-Create a `.env` file in the project root directory and add the necessary configurations.
+    Create a `.env` file in the project root directory and add the necessary configurations.
 
 ## Usage
 
@@ -47,6 +48,30 @@ python app.py
 ```
 
 The chatbot is now live at `http://localhost:5000/`. Interact with the chatbot through the provided endpoints.
+
+## Testing with Postman
+
+To test the chatbot API with Postman, follow these steps:
+
+1. **Install Postman**
+
+   Download and install Postman from [the official site](https://www.postman.com/downloads/).
+
+2. **Import Collection**
+
+   Create a new collection in Postman for your chatbot APIs.
+
+3. **Create a POST Request**
+
+   - URL: `http://localhost:5000/predict`
+   - Body type: `raw` (JSON)
+   - Request Body Example: `{"message": "Hello"}`
+
+4. **Send Request**
+
+   Hit the send button to receive a response from your chatbot.
+
+This setup allows you to easily test and debug your chatbot's responses.
 
 ## Contributing
 
